@@ -28,6 +28,16 @@
     font-size: 30px;
 }
 
+#image {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
@@ -42,25 +52,5 @@
     }
 }
 
-#image {
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-@media screen and (max-width: 300px) {
-    #image {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    }
-}
 
 
