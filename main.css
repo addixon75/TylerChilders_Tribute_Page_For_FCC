@@ -45,4 +45,14 @@
 .img-div {
     justify-content: center;
 }
+#image {
+width: 100%;
+height: auto;
+max-width: 300px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
 
